@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono&display=swap');
+
+
+.header {
+    max-width: 1180px;  
+    padding: 10px 30px;
+    background-color: hsl(211, 90%, 8%);
+
+    &_logo {
+        width: 150px;
+        display: flex;
+        text-align: center;
+
+        svg {
+            width: 19px;
+            fill: rgb(91, 14, 235, 0.3)
+        }
+
+
+        &-text {
+            font-family: 'Lobster', cursive;
+            color: rgb(91, 14, 235)
+        }
+
+        &::before {
+            background: url("/src/assets/video-svgrepo-com.svg");
+        }
+    }
+}
