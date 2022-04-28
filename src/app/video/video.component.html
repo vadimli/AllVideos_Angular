@@ -1,0 +1,13 @@
+<div class="youtube-player-container">
+    <div *ngFor="let item of videosInfo" class="youtube-player-container_item">
+        <!-- <youtube-player  videoId={{item.token}} [height]="150" [width]="200"></youtube-player> -->
+        <a class="youtube-player-container_item-a" href="/player" id="{{item.id}}">
+            <img class="youtube-player-container_item-img" src="{{item.img}}" alt="previw">
+        </a> 
+        
+        <h2 class="youtube-player-container_item-header">{{item.name}}</h2>
+        <!-- <button class="youtube-player-container_item-button" type="button" id="{{item.id}}">Leave a comment</button> -->
+    </div>
+
+</div>
+

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:wght@700&family=Roboto+Mono&display=swap');
+
+.youtube-player-container {
+    display: flex;
+    max-width: 1180px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+
+    &_item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: stretch;
+        
+
+        &-a {
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        &-header {
+            margin-top: 15px;
+            font-family: 'Prompt', sans-serif;
+            font-size: 10px;
+            max-width: 225px;
+            color: rgb(41, 206, 184)
+        }
+
+        &-img {
+            max-width: 225px;
+            min-height: 150px;
+        }
+    }
+} 

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:wght@700&family=Roboto+Mono&display=swap');
+
+.main {
+    color: rgb(50, 199, 199);
+    max-width: 1180px;  
+    padding: 10px 30px;
+    
+
+    &_header {
+        font-family: 'Prompt', sans-serif;
+        font-style: 40px;
+
+    }
+
+    &_video-container {
+        max-width: 1180px;
+    }
+}
+
+app-video {
+    width: 1180px;
+}
