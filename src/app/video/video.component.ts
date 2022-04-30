@@ -10,6 +10,10 @@ export class VideoComponent implements OnInit {
 
   public videosInfo = db.videos
 
+ public linkClick($event: any) {
+
+ }
+
   ngOnInit() {
 
   }

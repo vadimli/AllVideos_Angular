@@ -8,19 +8,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AllVideosPageModule } from './all-videos-page/all-videos-page.module';
 import { VideoComponent } from './video/video.component';
 import { PlayerModule } from './player/player.module';
+import { VideoModule } from './video/video.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AllVideosPageComponent,
-    VideoComponent
+    // VideoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AllVideosPageModule,
-    PlayerModule
+    PlayerModule,
+    VideoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
