@@ -1,5 +1,30 @@
 .player {
     color: rgb(193, 178, 235);
-    max-width: 1180px;  
+    display: flex;
+    justify-content: center;
     padding: 10px 30px;
+
+    &_container {
+        margin-top: 20px;
+        max-width: 1180px;  
+    }
+}
+
+.form {
+    &_field {
+        margin-bottom: 10px;
+    }
+
+    &_button {
+        width: 100px;
+    }
+}
+
+#name {
+    width: 100px;
+}
+
+#textarea {
+    width: 350px;
+    resize: none;
 }

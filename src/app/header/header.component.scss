@@ -2,9 +2,14 @@
 
 
 .header {
-    max-width: 1180px;  
     padding: 10px 30px;
     background-color: hsl(211, 90%, 8%);
+
+    &_container {
+        max-width: 1180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     &_logo {
         width: 150px;

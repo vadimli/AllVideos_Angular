@@ -1,3 +1,19 @@
 <div class="player">
-        <youtube-player videoId="iiXBwXlYuv8" [height]="200" [width]="350"></youtube-player>
+        <div class="player_container">
+        <youtube-player videoId="{{videosInfo[activeId - 1].token}}" [height]="200" [width]="350"></youtube-player>
+
+        <form class="form" id="data">
+                <div class="form_field">
+                        <input [(ngModel)]="commentForm.name" type="text" name="name" id="name" placeholder="Your name">
+                </div>
+                <div class="form_field">
+                        <textarea [(ngModel)]="commentForm.comment" id="textarea"  name="textarea" placeholder="Add your comment..." ></textarea>
+                </div>
+                <button class="form_button" type="button" form="data" (click)="onclickFormButton()">Send</button>
+        </form>
+        <div class="player_comment" >
+                <p></p>
+                <p></p>
+        </div>
+        </div>
 </div>
