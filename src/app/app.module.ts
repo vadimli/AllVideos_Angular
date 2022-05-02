@@ -10,6 +10,8 @@ import { RouterModule } from '@angular/router';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { PlayerComponent } from './player/player.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommentListComponent } from './comment-list/comment-list.component';
+import { CommentAddComponent } from './comment-add/comment-add.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     AllVideosPageComponent,
     VideoComponent,
-    PlayerComponent
+    PlayerComponent,
+    CommentListComponent,
+    CommentAddComponent
   ],
   imports: [
     BrowserModule,

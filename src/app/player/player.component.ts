@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import db from '../../../db.json'
 import { LinkService } from '../link.service';
 
@@ -13,19 +14,15 @@ public videosInfo: any = db.videos
 
 public activeId: number = 0
 
-public commentForm: any = {
-  name: '',
-  comment: '',
+videoUrl: string | undefined;
+
+constructor(private route: ActivatedRoute,
+            private linkService: LinkService) {  
+
+
+
+
 }
-
-  constructor(private linkService: LinkService) { 
-  }
-
-  onclickFormButton() {
-    console.log(this.commentForm);
-    
-    
-  }
 
   ngOnInit(): void {
     this.activeId = this.linkService.getLinkedVideoId;

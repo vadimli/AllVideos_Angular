@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:wght@700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 .main {
-    color: rgb(50, 199, 199);
+    color: rgb(173, 186, 187);
     max-width: 1180px;  
     padding: 10px 30px;
     margin-left: auto;
@@ -9,7 +10,7 @@
     
 
     &_header {
-        font-family: 'Prompt', sans-serif;
+        font-family: 'Roboto Mono', monospace;
         font-style: 40px;
 
     }

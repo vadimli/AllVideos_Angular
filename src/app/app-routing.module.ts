@@ -5,7 +5,7 @@ import { PlayerComponent } from "./player/player.component";
 
 
 const appRoutes: Routes = [
-    {path: 'player', component: PlayerComponent},
+    {path: 'video/:id', component: PlayerComponent},
     {path: '', component: AllVideosPageComponent}
   ];
 

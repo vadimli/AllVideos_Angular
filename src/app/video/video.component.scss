@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:wght@700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 .youtube-player-container {
     display: flex;
@@ -27,15 +28,15 @@
 
         &-header {
             margin-top: 7px;
-            font-family: 'Prompt', sans-serif;
+            font-family: 'Roboto Mono', monospace;
             font-size: 8px;
             max-width: 165px;
-            color: rgb(41, 206, 184)
+            color: rgb(173, 186, 187)
         }
 
         &-img {
-            max-width: 165px;
-            min-height: 100px;
+            width: 165px;
+            height: 100px;
         }
     }
 } 
