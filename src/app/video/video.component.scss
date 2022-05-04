@@ -40,3 +40,15 @@
         }
     }
 } 
+
+@media (max-width: 641px) {
+    .youtube-player-container {
+        flex-direction: column;
+
+        &_item {
+            align-items: center;
+            margin-bottom: 15px;
+
+        }
+    }
+}
