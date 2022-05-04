@@ -1,5 +1,5 @@
 <div class="youtube-player-container">
-    <div *ngFor="let item of videosInfo" class="youtube-player-container_item">
+    <div *ngFor="let item of videoList" class="youtube-player-container_item">
         <a [routerLink]="'video/:id'" class="youtube-player-container_item-a" >
             <img class="youtube-player-container_item-img" id="{{item.id}}" src="{{item.img}}" alt="previw" (click)="linkClick($event)"/>
         </a> 
